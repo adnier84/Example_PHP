@@ -1,0 +1,86 @@
+.Marco{
+        width:400px;
+	height:600px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background: -moz-linear-gradient(left,lightgrey 10%,gray 90%);
+	border-radius: 5px;
+        box-shadow: 2px 2px 4px black;
+	margin:auto;
+        border: none;
+}
+
+.Confirmacion{
+               
+              
+              background: -moz-linear-gradient(left,lightgrey 10%,gray 90%);
+              border: 1px solid maroon;
+              box-shadow: 2px 2px 2px black;
+              text-shadow: 2px 2px 2px black;
+              color: maroon;
+              font-size: 24px;
+              width: 280px;
+              height: 100px;
+              padding: 20px;
+              margin: 100px auto;
+              
+}
+
+input[type=text],[type=email]{
+	width:370px;
+	height:35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+        
+}
+
+textarea{
+	width: 370px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+       
+}
+
+input[type=submit]{
+        
+	width:100px;
+	height:30px;	
+	margin-left: 150px;
+}
+
+.id_p{  color: maroon;
+        text-shadow: 2px 2px 2px black;
+	font-size:20px;
+}
+
+label{
+	margin:11px 20px 0 0;
+	font-size: 16px;	
+        color: maroon;
+        text-shadow: 1px 1px 2px black;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+        box-shadow: 2px 2px 2px black;
+        color: maroon;
+	width: 100%;
+        
+        
+  }
+  
+  td, th {
+        
+	
+	text-align: left;
+	padding: 4px;
+        height: 60px
+  }
+
+  tr:nth-child(even) {
+	background-color: lightgrey;
+        
+  }
+
+.botones{font-size: initial;text-shadow: 2px 2px 2px black;margin: 2px;background: -moz-linear-gradient(left,lightgrey 10%,gray 90%);color: maroon;padding: 1px 5px;border-radius: 4px;box-shadow: 2px 2px 4px black;font-style: oblique}
+.botones:hover{background: -moz-linear-gradient(right,lightgray 10%,gray 90%)}
